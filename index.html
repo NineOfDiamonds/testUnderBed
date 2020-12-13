@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Что за чудик под кроватью?</title>
+	<meta name="description" content="Пройдите захватывающий дух тест, узнайте, какие тайны скрывает пространство под Вашей кроватью... " >
+
+	<meta name="og:title" content="Что за чудик под кроватью?">
+	<meta name="og:description" content="Пройдите захватывающий дух тест, узнайте, какие тайны скрывает пространство под Вашей кроватью... " >
+	<meta name="og:locale" content="ru_Ru">
+	<meta name="og:image" content="https://ak.picdn.net/shutterstock/videos/35042734/thumb/1.jpg">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/result.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/question.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/opening.css">
+	<script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="content">
+
+			<div class="opening" id="js-opening">
+				<h2 class="opening__title">Тест: Какой монстр у тебя под кроватью?</h2>
+				<h3 class="opening__desc">Привет, человек (или не человек... Кто тебя знает?..). Добро пожаловать в мой тест. Если хочешь поскорее узнать, кто находится у тебя под кроватью, но стремаешься залезать туда - скорее кликай на кнопку ниже.</h3>
+				<button class="opening__btn" onclick="initQuestions()">Скорее начать тест</button>
+			</div>
+
+			<div class="question -hide" id="js-question">
+				<div class="question__header">
+					<h3 class="question__text" id="js-questionText"></h3>
+					<div class="question__count"><span class="question__number" id="js-questionNumber"></span>/<span id="js-totalQuestionCount"></span></div>
+				</div>
+
+				<ul class="question__answers" id="js-questionAnswers">
+					<li><button class="question__answer" ></button></li>
+					<li><button class="question__answer" ></button></li>
+					<li><button class="question__answer" ></button></li>
+					<li><button class="question__answer" ></button></li>
+				</ul>
+			</div>
+
+			<div class="result -hide" id="js-result">
+				<h2 class="result__title__main">Поздравляю! Вы прошли этот тест! Под вашей кроватью...</h2>
+				<h3 class="result__text" id="js-resultTitle"></h3>
+				<img src="" alt="" class="result__image" id="js-resultImage">
+
+				<p class="result__description" id="js-resultDesc"></p>
+				<button class="result__restart" id="js-resultRestart" onclick="restartTest()">Хочу пройти тест ещё раз</button>
+				<div class="result__share" id="js-result-share"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" 
+		src="./assets/scripts/questions.js"></script>
+	<script type="text/javascript" 
+		src="./assets/scripts/resultData.js"></script>
+	<script type="text/javascript" 
+		src="./assets/scripts/main.js"></script>
+</body>
+</html>

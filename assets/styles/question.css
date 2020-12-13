@@ -1,0 +1,18 @@
+.question__count {
+	font-size: 26px;
+	margin: 10px 0 10px 0; 
+}
+
+.question__text {
+	font-size: 37px;
+	color: #ffffff;
+}
+
+.question__answer {
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #c034eb;
+	color: #eded0e;
+}

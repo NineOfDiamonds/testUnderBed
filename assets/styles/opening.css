@@ -1,0 +1,31 @@
+.opening {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 50vh;
+	color: #eded0e;
+}
+
+.opening__title {
+	font-size: 35px;
+	text-align: center;
+}
+
+.opening__desc {
+	font-size: 20px;
+	color: #f2fff9;
+	text-align: center;
+}
+
+.opening__btn {
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 10px;
+	background-color: #c034eb;
+	color: #eded0e;
+}
+
+.-hide {
+	display: none;
+}

@@ -1,0 +1,32 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica";
+
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: url(https://cdn.pixabay.com/photo/2016/06/08/20/29/blue-1444606_1280.png);
+	background-color: #c034eb;  
+	background-size: 60px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.-hide {
+	display: none;
+}

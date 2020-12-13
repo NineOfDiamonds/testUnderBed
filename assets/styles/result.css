@@ -1,0 +1,40 @@
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.result__restart {
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #c034eb;
+	color: #eded0e;
+}
+
+.result__image {
+	height: 350px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+
+}
+
+.result__title__main {
+	color: #eded0e;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.result__text {
+	margin-bottom: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.result__description {
+	font-size: 19px;
+	margin-bottom: 10px;
+	color: #fff;
+}
