@@ -60,7 +60,7 @@ function showTestResult() {
 	document.getElementById('js-result-share').innerHTML = VK.Share.button(
 			{
 				url: 'https://nineofdiamonds.github.io/testUnderBed/',
-				title: 'Офигеть!!! Да у меня под кроватью' + resultData[resultKey].title + '! Пройди тест тоже и узнай, кто таится под кроватью у тебя.',
+				title: 'Офигеть!!! Да у меня под кроватью ' + resultData[resultKey].title + '! Пройди тест тоже и узнай, кто таится под кроватью у тебя.',
 				image: 'https://nineofdiamonds.github.io/testUnderBed/' + resultData[resultKey].image,
 				noparse: true,
 			},
