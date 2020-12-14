@@ -2,8 +2,33 @@
 	max-width: 650px;
 }
 
+@media screen and (max-width: 1440px) {
+	.question__text {
+		font-size: 37px;
+	}
+
+	.result__image {
+		height: 350px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.container {
 		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+	.question__text, .result__title__main {
+		font-size: 25px;
+	}
+
+	.result {
+		margin: 10px;
+	}
+
+	.result__image {
+		height: 200px;
 	}
 }

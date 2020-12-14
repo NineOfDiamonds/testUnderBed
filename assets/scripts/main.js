@@ -59,9 +59,9 @@ function showTestResult() {
 
 	document.getElementById('js-result-share').innerHTML = VK.Share.button(
 			{
-				url: 'https://solvery.io/',
+				url: 'https://nineofdiamonds.github.io/testUnderBed/',
 				title: 'Офигеть!!! Да у меня под кроватью' + resultData[resultKey].title + '! Пройди тест тоже и узнай, кто таится под кроватью у тебя.',
-				image: resultData[resultKey].image,
+				image: 'https://nineofdiamonds.github.io/testUnderBed/' + resultData[resultKey].image,
 				noparse: true,
 			},
 			{
@@ -73,11 +73,11 @@ function showTestResult() {
 
 function getResultNameByScore() {
 	let resultKey = ''
-	if (testScore < 6 && testScore > -1) {
+	if (testScore < 3 && testScore > -1) {
 		resultKey = 'noMonster';
-	} else if (testScore < 11 && testScore > 5) {
+	} else if (testScore < 9 && testScore > 4) {
 		resultKey = 'monsterEnergy';
-	} else if (testScore < 15 && testScore > 10) {
+	} else if (testScore < 15 && testScore > 8) {
 		resultKey = 'monsterAlien'
 	} else if (testScore = 15) {
 		resultKey = 'youAreMonster'
